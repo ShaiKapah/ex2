@@ -11,13 +11,7 @@ int main()
     // MAIN MENU LOOP
     int option = 1;
     while(option != 6){
-        printf("Welcome to our games, please choose an option:\n
-        1. Ducky's Unity Game\n
-        2. The Memory Game\n
-        3. Professor Pat's Power Calculation\n
-        4. The Duck Parade\n
-        5. The Mystery of the Repeated Digits\n
-        6. Good Night Ducks\n");
+        printf("Welcome to our games, please choose an option:\n1. Ducky's Unity Game\n2. The Memory Game\n3. Professor Pat's Power Calculation\n4. The Duck Parade\n5. The Mystery of the Repeated Digits\n6. Good Night Ducks\n");
         scanf("%d", &option);
         switch(option){
             case 1:{
