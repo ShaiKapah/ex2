@@ -98,7 +98,7 @@ int main()
                         printf(" _");
                     printf("\n");
                     for(int i =0; i< (num-count) && i<10; i++)
-                        printf("__(0)> ");
+                        printf("__(o)> ");
                     printf("\n");
                     for(int i =0; i< (num-count) && i<10; i++)
                         printf("\\___) ");
@@ -127,7 +127,7 @@ int main()
                         x /= 10;
                     }
                     if(count > 1)
-                        printf("%d appears more then once! \n", i);
+                        printf("%d appears more than once! \n", i);
                 }
                 break;
             }
