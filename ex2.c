@@ -55,9 +55,9 @@ int main()
                 for(int i = 0; i < x; i++){
                     int sound = (memory>>i) & 1;
                     if (sound)
-                        printf("duck number %d do QUAK\n",i+1);
+                        printf("duck number %d do Quak\n",i+1);
                     else
-                        printf("duck number %d do SH...\n",i+1);
+                        printf("duck number %d do Sh...\n",i+1);
                 }
             break;
             }
@@ -95,13 +95,13 @@ int main()
                 int count = 0;
                 while(count < num){
                     for(int i =0; i< (num-count) && i<10; i++)
-                        printf("   _            ");
+                        printf(" _");
                     printf("\n");
                     for(int i =0; i< (num-count) && i<10; i++)
-                        printf("__(0)>          ");
+                        printf("__(0)> ");
                     printf("\n");
                     for(int i =0; i< (num-count) && i<10; i++)
-                        printf("\\___)           ");
+                        printf("\\___) ");
                     printf("\n\n\n");
                     count += 10;
                 }  
@@ -127,7 +127,7 @@ int main()
                         x /= 10;
                     }
                     if(count > 1)
-                        printf("%d appears more then once!\n", i);
+                        printf("%d appears more then once! \n", i);
                 }
                 break;
             }
